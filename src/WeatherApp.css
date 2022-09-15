@@ -1,0 +1,16 @@
+.WeatherApp {
+  background: #d1f0ee;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.col-4 {
+  padding: 0;
+  width: 500px;
+}
+
+.col-6 {
+  text-align: center;
+}
