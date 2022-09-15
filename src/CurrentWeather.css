@@ -1,0 +1,45 @@
+.current-time {
+  font-size: 19px;
+}
+.card {
+  background: #d1f0ee;
+  border: none;
+  padding: 30px 20px;
+}
+.current-weather-img {
+  width: 80px;
+  padding: 10px 0;
+}
+.weather-img {
+  width: 40px;
+}
+.today {
+  font-weight: 600;
+  font-size: 18px;
+  background: #5ac8c1;
+  border-radius: 10px;
+}
+
+#search-button,
+#current-location-button {
+  background: #5ac8c1;
+  border: 1mm solid #5ac8c1;
+  margin: 1px;
+  color: #7a7b7d;
+  font-weight: bold;
+}
+#current-city {
+  padding-left: 0;
+}
+#search {
+  padding: 50px 0 0px 50px;
+}
+#current-conditions,
+#current-city {
+  color: #7a7b7d;
+  text-align: center;
+}
+#current-conditions {
+  padding-top: 30px;
+  max-width: 480px;
+}
