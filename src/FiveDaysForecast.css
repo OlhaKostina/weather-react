@@ -1,3 +1,12 @@
+.col-4 {
+  padding: 0;
+  width: 500px;
+}
+
+.col-6 {
+  text-align: center;
+}
+
 #five-days-forecast {
   background: #bbe9e6;
   border: 1mm solid #bbe9e6;

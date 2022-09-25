@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <small>
+    <div className="footer-link">
       <a
         href="https://github.com/OlhaKostina/weather-react"
         target="_blank norefferer"
@@ -10,6 +10,6 @@ export default function Footer() {
         Open-source code
       </a>
       <span> by Olha Kostina </span>
-    </small>
+    </div>
   );
 }

@@ -28,14 +28,14 @@
   color: #7a7b7d;
   font-weight: bold;
 }
-#current-city {
+.current-city {
   padding-left: 0;
 }
 #search {
   padding: 50px 0 0px 50px;
 }
 #current-conditions,
-#current-city {
+.current-city {
   color: #7a7b7d;
   text-align: center;
 }

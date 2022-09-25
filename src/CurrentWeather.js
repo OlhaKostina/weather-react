@@ -44,9 +44,9 @@ export default function CurrentWeather() {
           </div>
         </div>
       </div>
-      <div className="col-4" id="current-city">
+      <div className="col-4" id="">
         <div className="card">
-          <div className="card-body">
+          <div className="current-city">
             <h1 className="current-city"> Kharkiv </h1>
             <h3 className="current-date">28/08/2022</h3>
             <h1 className="current-time">12:54</h1>
