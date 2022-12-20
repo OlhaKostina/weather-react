@@ -7,8 +7,8 @@ import "./WeatherApp.css";
 export default function WeatherApp() {
   return (
     <div className="WeatherApp">
-      <CurrentWeather />
-      <FiveDaysForecast />
+      <CurrentWeather defaultCity="Kharkiv" />
+      <FiveDaysForecast defaultCity="Kharkiv" />
     </div>
   );
 }
