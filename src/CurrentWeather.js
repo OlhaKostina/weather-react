@@ -75,6 +75,5 @@ export default function CurrentWeather(props) {
     );
   } else {
     search();
-    return "Loading...";
   }
 }
