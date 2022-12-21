@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
@@ -27,10 +28,7 @@ export default function WeatherInfo(props) {
             <div className="col-6" id="day-weather">
               <ul id="weather-of-the-day">
                 <li className="today">TODAY</li>
-                <li>
-                  <span id="current-temperature"></span>
-                  <span id="units">{Math.round(props.data.temperature)}℃ </span>
-                </li>
+                <WeatherTemperature celsius={props.data.temperature} />
                 <li>
                   <span id="description">{props.data.description}</span>
                 </li>
