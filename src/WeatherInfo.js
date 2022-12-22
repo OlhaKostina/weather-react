@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherForecast from "./WeatherForecast";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
@@ -36,9 +37,7 @@ export default function WeatherInfo(props) {
             </div>
           </div>
         </div>
-        <div className="col-8">
-          <div className="row" id="forecast"></div>
-        </div>
+        <WeatherForecast />
       </div>
     </div>
   );
