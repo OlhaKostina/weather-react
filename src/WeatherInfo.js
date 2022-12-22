@@ -37,7 +37,11 @@ export default function WeatherInfo(props) {
             </div>
           </div>
         </div>
-        <WeatherForecast />
+        <WeatherForecast
+          coordinates={props.data.coordinates}
+          img={props.data.icon}
+          desc={props.data.description}
+        />
       </div>
     </div>
   );
