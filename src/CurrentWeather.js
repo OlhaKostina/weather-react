@@ -29,11 +29,11 @@ export default function CurrentWeather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function handleCityChange(event) {
     setCity(event.target.value);
-    search();
   }
 
   if (weatherData.ready) {
