@@ -5,10 +5,10 @@ a {
 .current-time {
   font-size: 19px;
 }
-.card {
+.CityCard .card {
   background: #d1f0ee;
   border: none;
-  padding: 30px 20px;
+  padding: 40px 20px 0 20px;
 }
 .current-weather-img {
   width: 80px;
@@ -24,8 +24,7 @@ a {
   border-radius: 10px;
 }
 
-#search-button,
-#current-location-button {
+#search-button {
   background: #5ac8c1;
   border: 1mm solid #5ac8c1;
   margin: 1px;
@@ -38,22 +37,28 @@ a {
 #search {
   padding: 50px 0 0px 50px;
 }
+#search-line {
+  width: 400px;
+}
 #current-conditions,
 .current-city {
   color: #7a7b7d;
   text-align: center;
 }
 #current-conditions {
-  padding-top: 30px;
   max-width: 480px;
 }
 .col-4 {
   padding: 0;
-  width: 500px;
+  width: 400px;
 }
 
 .col-6 {
   text-align: center;
+}
+
+.form-inline {
+  display: flex;
 }
 
 #five-days-forecast {

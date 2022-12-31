@@ -12,6 +12,7 @@ export default function CurrentWeather(props) {
       ready: true,
       coordinates: response.data.coord,
       city: response.data.name,
+      pressure: response.data.main.pressure,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
@@ -58,13 +59,6 @@ export default function CurrentWeather(props) {
               id="search-button"
             >
               🔎
-            </button>
-            <button
-              type="submit"
-              className="btn btn-primary mb-2"
-              id="current-location-button"
-            >
-              Current location
             </button>
           </form>
         </div>
